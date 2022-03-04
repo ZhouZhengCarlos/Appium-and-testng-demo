@@ -28,7 +28,10 @@ public class FacebookHomePage extends Page{
 	}
 	
 	public WebElement getReactionButton() {
-		return getBySelector("div.m.fixed-container.bottom > div > div:nth-child(3)");
+		return getBySelector("#screen-root > div > div.m.fixed-container.bottom > div > div:nth-child(3)");
 	}
-
+	
+	public WebElement getLikesCount() {
+		return getBySelector(" div > button > span:nth-child(2)");
+	}
 }

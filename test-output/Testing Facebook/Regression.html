@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Regression</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Regression</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 04 16:21:35 CST 2022</td>
+<td>Started on:</td><td>Fri Mar 04 16:40:14 CST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>151 seconds (151628 ms)</td>
+<tr><td>Total time:</td><td>133 seconds (133321 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='tests.FacebookLoginSpec.VerifyLogin()'><b>VerifyLogin</b><br>Test class: tests.FacebookLoginSpec<br/>
+<a href="#Output-1949126165" onClick='toggleBox("Output-1949126165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1949126165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1949126165">
+Test starting: VerifyLogin<br/>
+Verifying Login<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>tests.FacebookLoginSpec@4efbca5a</td></tr>
+<tr>
+<td title='tests.FacebookLoginSpec.testOne()'><b>testOne</b><br>Test class: tests.FacebookLoginSpec<br/>
+<a href="#Output-1520836654" onClick='toggleBox("Output-1520836654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1520836654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1520836654">
+Test starting: testOne<br/>
+Test One<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>tests.FacebookLoginSpec@4efbca5a</td></tr>
+<tr>
 <td title='tests.FacebookLoginSpec.sampleTest()'><b>sampleTest</b><br>Test class: tests.FacebookLoginSpec<br/>
 <a href="#Output-1658512704" onClick='toggleBox("Output-1658512704", this, "Show output", "Hide output");'>Show output</a>
 
 <a href="#Output-1658512704" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-1658512704">
+Test starting: sampleTest<br/>
 Im inside temple test<br/>
 </div>
 </td>
@@ -88,39 +115,16 @@ Im inside temple test<br/>
 <td>tests.FacebookLoginSpec@4efbca5a</td></tr>
 <tr>
 <td title='tests.FacebookLoginSpec.LikeOwnProfilePic()'><b>LikeOwnProfilePic</b><br>Test class: tests.FacebookLoginSpec<br/>
-<a href="#Output-1748097277" onClick='toggleBox("Output-1748097277", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1960253514" onClick='toggleBox("Output-1960253514", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1748097277" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1748097277">
+<a href="#Output-1960253514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1960253514">
+Test starting: LikeOwnProfilePic<br/>
 Liking facebook profile picture<br/>
 </div>
 </td>
 <td></td>
-<td>25</td>
-<td>tests.FacebookLoginSpec@4efbca5a</td></tr>
-<tr>
-<td title='tests.FacebookLoginSpec.testOne()'><b>testOne</b><br>Test class: tests.FacebookLoginSpec<br/>
-<a href="#Output-23053378" onClick='toggleBox("Output-23053378", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-23053378" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-23053378">
-Test One<br/>
-</div>
-</td>
-<td></td>
-<td>11</td>
-<td>tests.FacebookLoginSpec@4efbca5a</td></tr>
-<tr>
-<td title='tests.FacebookLoginSpec.VerifyLogin()'><b>VerifyLogin</b><br>Test class: tests.FacebookLoginSpec<br/>
-<a href="#Output-1522119751" onClick='toggleBox("Output-1522119751", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1522119751" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1522119751">
-Verifying Login<br/>
-</div>
-</td>
-<td></td>
-<td>15</td>
+<td>22</td>
 <td>tests.FacebookLoginSpec@4efbca5a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -132,51 +136,19 @@ Verifying Login<br/>
 </tr>
 <tr>
 <td title='tests.FacebookLoginSpec.LikeOwnProfilePic()'><b>LikeOwnProfilePic</b><br>Test class: tests.FacebookLoginSpec<br/>
-<a href="#Output-696739588" onClick='toggleBox("Output-696739588", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1584918772" onClick='toggleBox("Output-1584918772", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-696739588" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-696739588">
+<a href="#Output-1584918772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1584918772">
+Test starting: LikeOwnProfilePic<br/>
 Liking facebook profile picture<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [51] but found [49]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
 	at tests.FacebookLoginSpec.LikeOwnProfilePic(FacebookLoginSpec.java:86)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace696739588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace696739588'><pre>java.lang.AssertionError: expected [51] but found [49]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1584918772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1584918772'><pre>java.lang.AssertionError: expected [51] but found [49]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -213,7 +185,7 @@ Liking facebook profile picture<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>30</td>
+<td>23</td>
 <td>tests.FacebookLoginSpec@4efbca5a</td></tr>
 </table><p>
 </body>

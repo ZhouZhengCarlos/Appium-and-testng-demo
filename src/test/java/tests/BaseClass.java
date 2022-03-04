@@ -4,6 +4,7 @@ import java.net.URL;
 
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -38,9 +39,9 @@ public class BaseClass {
 		}
 	}
 	
-	@Test
+	@Test(retryAnalyzer = Retry.class)
 	public void sampleTest() {
-		System.out.println("Im inside temple test");
+		Reporter.log("Im inside temple test");
 	}
 	
 	@AfterTest

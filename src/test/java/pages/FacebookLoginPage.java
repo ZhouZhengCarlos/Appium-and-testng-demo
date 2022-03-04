@@ -31,12 +31,18 @@ public class FacebookLoginPage extends Page{
 		return getByClassName("_2pii");
 	}
 
-	public void Login() {
+	public void Login() throws InterruptedException {
 		driver.get(URL());
-		getEmailInput().sendKeys("your email");
-		getPasswordInput().sendKeys("your password");
+		getEmailInput().sendKeys("60712317");
+		getPasswordInput().sendKeys("chanchos2012.com");
 		getSubmitButton().click();
 		getNotNowButton().click();
+		Thread.sleep(5000);
+		
+		String previousContext = driver.getContext();
+		driver.context("NATIVE_APP");
+		driver.findElementByXPath(".//android.widget.Button[@text='BLOCK']").click();
+		driver.context(previousContext);
 	}
 
 }
